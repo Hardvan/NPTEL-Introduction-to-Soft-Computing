@@ -1,5 +1,7 @@
 # Week 1
 
+Refer the [PDF](./Week%2001%20Lecture%20Material.pdf)
+
 ## Lecture 1: Introduction to Soft Computing
 
 ### Hard Computing
@@ -110,7 +112,7 @@ In case of a crisp set, the elements are with extreme values of degree of member
 
 2. **Support**
 
-   The support of a fuzzy set $A$ is the set of all pounts $x$ in $X$ such that **$\mu_A(x) > 0$**.
+   The support of a fuzzy set $A$ is the set of all points $x$ in $X$ such that **$\mu_A(x) > 0$**.
 
    $Support(A) = \{x | \mu_A(x) > 0\}$
 
@@ -129,3 +131,55 @@ In case of a crisp set, the elements are with extreme values of degree of member
    The crossover points of a fuzzy set $A$ are the points $x$ in $X$ such that $\mu_A(x) = 0.5$.
 
    $Crossover(A) = \{x | \mu_A(x) = 0.5\}$
+
+6. **Fuzzy Singleton**
+
+   A fuzzy set whose support is a single point in $X$ with $\mu_A(x) = 1$. That is $|A| = \{x | \mu_A(x) = 1\}$
+
+7. **$\alpha$-cut and strong $\alpha$-cut**
+
+   - The $\alpha$-cut of a fuzzy set $A$ is a crisp set defined as:
+     $A_\alpha = \{x | \mu_A(x) \geq \alpha\}$
+
+   - Strong $\alpha$-cut is defined similarly as:
+     $A_\alpha' = \{x | \mu_A(x) > \alpha\}$
+
+   **Note**: $Support(A) = A_0', Core(A) = A_1$
+
+8. **Bandwidth**
+
+   Distance b/w the two unique crossover points of a fuzzy set.
+
+   $Bandwidth(A) = |x_1 - x_2|$  
+   where, $\mu_A(x_1) = \mu_A(x_2) = 0.5$
+
+9. **Symmetry**
+
+   A fuzzy set $A$ is symmetric if its membership function is symmetric around a certain point $x = c$, namely:
+
+   $\mu_A(x + c) = \mu_A(x - c)$ for all $x \in X$
+
+10. **Open and Closed**
+
+    A fuzzy set $A$ is:
+
+    - **Open left**: if $\lim_{x \to -\infty} \mu_A(x) = 1$ and $\lim_{x \to +\infty} \mu_A(x) = 0$
+    - **Open right**: if $\lim_{x \to -\infty} \mu_A(x) = 0$ and $\lim_{x \to +\infty} \mu_A(x) = 1$
+    - **Closed**: if $\lim_{x \to -\infty} \mu_A(x) = \lim_{x \to +\infty} \mu_A(x) = 0$
+
+    <img src="./images/6.png" width="500" />
+
+### Fuzzy vs. Probability
+
+- **Fuzzy**: When we say about **certainty** of a **thing**
+  Example: A patient come to the doctor and he has to diagnose so that medicine can be prescribed.  
+  Doctor prescribed a medicine with certainty 60% that the patient is suffering from flue. So, the disease will be cured with certainty of 60% and uncertainty 40%. Here, in stead of flue, other diseases with some other certainties may be.
+
+- **Probability**: When we say about the **chance** of an **event** to **occur**
+  Example: India will win the T20 tournament with a chance 60% means that out of 100 matches, India own 60 matches.
+
+### Prediction vs Forecasting
+
+- **Prediction**: Based on best guess from experiences
+
+- **Forecasting**: Based on data you have actually recorded and packed from previous job
