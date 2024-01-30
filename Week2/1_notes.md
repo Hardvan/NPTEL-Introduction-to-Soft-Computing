@@ -11,3 +11,5 @@
 | $=$        | EQUALITY    | $(P = Q)$ or $[(P \implies Q) \wedge (Q \implies P)]$ | $1 - \|T(P) - T(Q)\|$   |
 
 ## Lecture 2: Fuzzy Implications
+
+## Lecture 3: Fuzzy Inferences
