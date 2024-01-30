@@ -19,3 +19,5 @@
 ## Lecture 4: Defuzzification Techniques Part 2
 
 Area of Trapezium: $\frac{1}{2} \times (a + b) \times h$
+
+Note: Fuzzy Sets can also be deonted as $A = \{\frac{\mu_A(x)}{x}\}$
