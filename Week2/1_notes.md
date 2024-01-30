@@ -13,3 +13,5 @@
 ## Lecture 2: Fuzzy Implications
 
 ## Lecture 3: Fuzzy Inferences
+
+## Lecture 4: Defuzzification Techniques Part 1
