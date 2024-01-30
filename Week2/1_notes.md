@@ -15,3 +15,7 @@
 ## Lecture 3: Fuzzy Inferences
 
 ## Lecture 4: Defuzzification Techniques Part 1
+
+## Lecture 4: Defuzzification Techniques Part 2
+
+Area of Trapezium: $\frac{1}{2} \times (a + b) \times h$
