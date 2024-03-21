@@ -29,7 +29,7 @@ Role model of Soft Computing: Human Mind
 #### Characteristics of Soft Computing
 
 - Not require any mathematical modeling
-- May not yeild the precise solution
+- May not yield the precise solution
 - Algorithms are adaptive
 - Use some biological inspired methodologies such as genetics, evolution, etc.
 
@@ -134,7 +134,7 @@ In case of a crisp set, the elements are with extreme values of degree of member
 
 6. **Fuzzy Singleton**
 
-   A fuzzy set whose support is a single point in $X$ with $\mu_A(x) = 1$. That is $|A| = \{x | \mu_A(x) = 1\}$
+   A fuzzy set whose core is a single point in $X$ with $\mu_A(x) = 1$. That is $|A| = \{x | \mu_A(x) = 1\}$
 
 7. **$\alpha$-cut and strong $\alpha$-cut**
 
