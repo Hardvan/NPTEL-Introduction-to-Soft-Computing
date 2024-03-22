@@ -20,7 +20,7 @@
 
 Area of Trapezium: $\frac{1}{2} \times (a + b) \times h$
 
-Note: Fuzzy Sets can also be denoted as
+Zadeh's Notation: Fuzzy Sets can also be denoted as:
 
 $$
 A = \{\frac{\mu_A(x)}{x}\}
